@@ -3,136 +3,178 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bitget Support Page Clone</title>
+  <title>Bitget Support Center | 24/7 Support Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-      line-height: 1.6;
-    }
-    header {
-      background-color: #262626;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    main {
-      max-width: 900px;
-      margin: 20px auto;
-      padding: 20px;
-      background-color: #fff;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    h1, h2 {
-      margin-top: 0;
-    }
-    ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-    .section {
-      margin-bottom: 20px;
-    }
+    .gradient-bg { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
+    .search-box { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
   </style>
 </head>
-<body>
-  <header>
-    <h1>Hello, how can we help?</h1>
+<body class="bg-gray-900 text-gray-100 font-sans">
+  <!-- Header -->
+  <header class="gradient-bg border-b border-gray-800 sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center px-4 py-3">
+      <div class="flex items-center space-x-8">
+        <a href="#" class="flex items-center">
+          <img src="https://www.bitget.com/support/_next/static/media/new-loading-black.35710b66.svg" alt="Bitget Logo" class="h-8">
+          <span class="ml-2 text-xl font-bold">Bitget</span>
+        </a>
+        <nav class="hidden md:flex space-x-6">
+          <a href="https://web3.bitget.com/en" class="hover:text-blue-400 transition-all">Buy Crypto</a>
+          <a href="https://web3.bitget.com/en" class="hover:text-blue-400 transition-all">Markets</a>
+          <a href="https://web3.bitget.com/en" class="hover:text-blue-400 transition-all">Trade</a>
+          <a href="https://web3.bitget.com/en" class="hover:text-blue-400 transition-all">Futures</a>
+          <a href="https://web3.bitget.com/en" class="hover:text-blue-400 transition-all">Earn</a>
+          <a href="https://web3.bitget.com/en" class="hover:text-blue-400 transition-all">Web3</a>
+        </nav>
+      </div>
+      <div class="flex items-center space-x-4">
+        <div class="hidden md:flex items-center bg-gray-800 rounded-full px-3 py-1">
+          <img src="https://img.bgstatic.com/fiat-country/USD.svg" alt="USD" class="h-4 mr-2">
+          <span>USD</span>
+        </div>
+        <a href="https://web3.bitget.com/en" class="px-4 py-2 rounded-md bg-transparent hover:bg-gray-700 transition-all">Log In</a>
+        <a href="https://web3.bitget.com/en" class="px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-700 transition-all">Sign Up</a>
+      </div>
+    </div>
   </header>
-  <main>
-    <div class="section">
-      <h2>Self‑Service Options</h2>
-      <ul>
-        <li>Join KCGI 2025</li>
-        <li>Crypto deposit not credited</li>
-        <li>Fiat deposit not credited</li>
-        <li>Report P2P fraud/disputes</li>
-        <li>Reset identity verification</li>
-        <li>Rewards not received</li>
-        <li>Individual verification</li>
-        <li>View all</li>
-      </ul>
-    </div>
-    <div class="section">
-      <h2>FAQ Topics</h2>
-      <ul>
-        <li>Trading (spot, margin, futures)</li>
-        <li>Copy trading (copier guides, elite trader guide)</li>
-        <li>Bitget earn (savings/investment, lending, wealth management)</li>
-        <li>Launchhub (Pre‑market, LaunchX, Launchpool)</li>
-        <li>Others (New user guide, Bitget PRO, Bitget seed)</li>
-        <li>VIP (levels and benefits, trial pass)</li>
-        <li>Campaign and bonus (KCGI, rewards and promotions, bonuses and vouchers)</li>
-        <li>Account & security (registration and login, account settings, password/fund security)</li>
-        <li>KYC verification (individual, institutional, troubleshooting)</li>
-        <li>Crypto deposit & withdrawal (deposit, withdrawal, asset transfer)</li>
-        <li>P2P trading (getting started, merchant guides, order appeals)</li>
-        <li>Buy crypto (bank deposits/withdrawals, credit/debit card, quick buy & cash conversion)</li>
-      </ul>
-    </div>
-    <div class="section">
-      <h2>Announcement Centre</h2>
-      <ul>
-        <li>Latest news</li>
-        <li>New listings</li>
-        <li>Product updates</li>
-        <li>Competitions and promotions</li>
-        <li>Security</li>
-        <li>API trading</li>
-        <li>Delisting information</li>
-        <li>Fiat</li>
-        <li>Maintenance or system updates</li>
-      </ul>
-    </div>
-    <div class="section">
-      <h2>Product Details</h2>
-      <ul>
-        <li>Spot trading</li>
-        <li>Futures</li>
-        <li>Copy trading</li>
-        <li>Spot margin</li>
-        <li>Trading bots</li>
-        <li>Bot copy trading</li>
-        <li>Fiat</li>
-        <li>Bitget swap</li>
-        <li>ETF trading</li>
-        <li>Card</li>
-        <li>Unified account</li>
-      </ul>
-    </div>
-    <div class="section">
-      <h2>Highlighted Articles</h2>
-      <ul>
-        <li>P2P User Agreement — 23 Oct 2023</li>
-        <li>Bitget’s One‑Click Copy Trade User Agreement — 2 Aug 2022</li>
-        <li>Bitget CandyBomb: Deposit or trade to share 316,500 PI! — 26 Feb 2025</li>
-        <li>MDTUSDT now launched for futures trading and trading bots — 26 Jul 2025</li>
-        <li>Notice of Suspension for TOMANEW‑APT, PROPS‑APT deposit and withdrawal — 26 Jul 2025</li>
-        <li>ASPUSDT now launched for futures trading and trading bots — 25 Jul 2025</li>
-      </ul>
-    </div>
-  </main>
-  <!-- Begin of Chaport Live Chat code -->
-  <script type="text/javascript">
-  (function(w,d,v3){
-  w.chaportConfig = {
-    appId : '6886ab9fe249adf602fcc0bd'
-  };
 
-  if(w.chaport) return;
-  v3=w.chaport={};v3._q=[];v3._l={};
-  v3.q=function(){v3._q.push(arguments)};
-  v3.on=function(e,fn){if(!v3._l[e]) v3._l[e]=[];v3._l[e].push(fn)};
-  var s=d.createElement('script');
-  s.type='text/javascript';
-  s.async=true;
-  s.src='https://app.chaport.com/javascripts/insert.js';
-  var ss=d.getElementsByTagName('script')[0];
-  ss.parentNode.insertBefore(s, ss);
-  })(window, document);
+  <!-- Hero Section -->
+  <section class="gradient-bg py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">Hello, how can we help?</h1>
+      <p class="text-xl text-gray-300 mb-8">Our multilingual customer support team is here to assist you 24/7</p>
+      <div class="relative max-w-2xl mx-auto mb-12">
+        <input type="text" placeholder="Search for help..." class="search-box w-full py-4 px-6 rounded-full bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <button class="absolute right-2 top-2 bg-blue-600 text-white p-2 rounded-full hover:bg-blue-700 transition-all">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Links (simplified) -->
+  <section class="py-12 bg-gray-800">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-8">Self-service</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <a href="https://web3.bitget.com/en" class="bg-gray-700 rounded-lg p-4 flex flex-col items-center text-center transition-all">
+          <div class="bg-blue-900 rounded-full p-3 mb-3"><i class="fas fa-trophy text-blue-400 text-xl"></i></div>
+          <span class="font-medium">Join KCGI 2025</span>
+        </a>
+        <a href="#" class="bg-gray-700 rounded-lg p-4 flex flex-col items-center text-center transition-all">
+          <div class="bg-blue-900 rounded-full p-3 mb-3"><i class="fas fa-coins text-blue-400 text-xl"></i></div>
+          <span class="font-medium">Crypto deposit not credited</span>
+        </a>
+        <a href="#" class="bg-gray-700 rounded-lg p-4 flex flex-col items-center text-center transition-all">
+          <div class="bg-blue-900 rounded-full p-3 mb-3"><i class="fas fa-exclamation-triangle text-blue-400 text-xl"></i></div>
+          <span class="font-medium">Report P2P fraud/disputes</span>
+        </a>
+        <a href="#" class="bg-gray-700 rounded-lg p-4 flex flex-col items-center text-center transition-all">
+          <div class="bg-blue-900 rounded-full p-3 mb-3"><i class="fas fa-money-bill-wave text-blue-400 text-xl"></i></div>
+          <span class="font-medium">Fiat deposit not credited</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Categories (simplified) -->
+  <section class="py-12 bg-gray-900">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-8">FAQ</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-gray-800 rounded-lg overflow-hidden p-6">
+          <h3 class="text-xl font-bold mb-4 flex items-center"><i class="fas fa-exchange-alt text-blue-400 mr-3"></i>Trading</h3>
+          <ul class="space-y-3">
+            <li><a href="https://web3.bitget.com/en" class="text-gray-300 hover:text-blue-400 transition-all">Spot trading</a></li>
+            <li><a href="https://web3.bitget.com/en" class="text-gray-300 hover:text-blue-400 transition-all">Margin trading</a></li>
+            <li><a href="https://web3.bitget.com/en" class="text-gray-300 hover:text-blue-400 transition-all">Futures trading</a></li>
+          </ul>
+        </div>
+        <div class="bg-gray-800 rounded-lg overflow-hidden p-6">
+          <h3 class="text-xl font-bold mb-4 flex items-center"><i class="fas fa-copy text-blue-400 mr-3"></i>Copy trading</h3>
+          <ul class="space-y-3">
+            <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-all">Copier guides</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-all">Elite trader guide</a></li>
+          </ul>
+        </div>
+        <div class="bg-gray-800 rounded-lg overflow-hidden p-6">
+          <h3 class="text-xl font-bold mb-4 flex items-center"><i class="fas fa-chart-line text-blue-400 mr-3"></i>Bitget earn</h3>
+          <ul class="space-y-3">
+            <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-all">Savings & investment</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-all">Lending services</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-16 bg-gray-900">
+    <div class="container mx-auto px-4 text-center max-w-4xl">
+      <h2 class="text-3xl font-bold mb-6">Need more help?</h2>
+      <p class="text-xl text-gray-300 mb-8">Our multilingual customer support team is here to assist you.</p>
+      <a href="https://web3.bitget.com/en" class="contact-btn px-8 py-3 bg-blue-600 rounded-md text-lg font-medium hover:bg-blue-700 transition-all">Contact us</a>
+      <div class="mt-12">
+        <img src="https://www.bitget.com/support/_next/static/media/help.71b8f079.png" alt="Help Illustration" class="mx-auto h-48">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (simplified) -->
+  <footer class="bg-gray-900 border-t border-gray-800 pt-12 pb-6">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center border-t border-gray-800 pt-6">
+        <div class="flex items-center mb-4 md:mb-0">
+          <img src="https://www.bitget.com/support/_next/static/media/new-loading-black.35710b66.svg" alt="Bitget Logo" class="h-6 mr-2">
+          <span class="font-medium">© 2025 Bitget</span>
+        </div>
+        <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-400">
+          <a href="#" class="hover:text-blue-400 transition-all">Privacy</a>
+          <a href="#" class="hover:text-blue-400 transition-all">Cookies</a>
+          <a href="#" class="hover:text-blue-400 transition-all">Terms</a>
+          <a href="#" class="hover:text-blue-400 transition-all">Risk</a>
+        </div>
+        <div class="mt-4 md:mt-0 flex items-center">
+          <span class="mr-2">English</span>
+          <img src="https://img.bgstatic.com/fiat-country/USD.svg" alt="USD" class="h-4">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Chaport Live Chat code -->
+  <script type="text/javascript">
+    (function(w,d,v3){
+      w.chaportConfig = { appId : '6886ab9fe249adf602fcc0bd' };
+      if(w.chaport) return;
+      v3=w.chaport={}; v3._q=[]; v3._l={};
+      v3.q=function(){ v3._q.push(arguments) };
+      v3.on=function(e,fn){ if(!v3._l[e]) v3._l[e]=[]; v3._l[e].push(fn) };
+      var s=d.createElement('script'); s.type='text/javascript'; s.async=true; s.src='https://app.chaport.com/javascripts/insert.js';
+      var ss=d.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s,ss)
+    })(window, document);
   </script>
-  <!-- End of Chaport Live Chat code -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchBtn = document.querySelector('.search-box + button');
+      if (searchBtn) {
+        searchBtn.addEventListener('click', () => {
+          const searchTerm = document.querySelector('.search-box').value.trim();
+          if (searchTerm) {
+            console.log('Searching for: ' + searchTerm);
+          }
+        });
+      }
+      const contactBtn = document.querySelector('.contact-btn');
+      if (contactBtn) {
+        contactBtn.addEventListener('click', () => {
+          console.log('Contact button clicked');
+        });
+      }
+    });
+  </script>
 </body>
 </html>
